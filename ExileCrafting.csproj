@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputType>Library</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <DebugType>embedded</DebugType>
+    <PathMap>$(MSBuildProjectDirectory)=$(MSBuildProjectName)</PathMap>
+    <EmbedAllSources>true</EmbedAllSources>
+    <!--Don't bother setting anything to do with the output path, HUD will do it for you if you put the source code inside Plugins/Source-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--Rather than replacing this with absolute or relative paths, you should create an environment variable for wherever your HUD folder is-->
+    <Reference Include="ExileCore">
+      <HintPath>D:\CraB\poe\pex\ExileCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GameOffsets">
+      <HintPath>D:\CraB\poe\pex\GameOffsets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ItemFilterLibrary">
+      <HintPath>D:\CraB\poe\pex\ItemFilterLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--the Sounds tab lists whatever wavs sit next to the dll, so they have to travel with it-->
+    <None Include="sounds\**\*.wav" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="examples\**\*.csx" CopyToOutputDirectory="PreserveNewest" />
+    <!--the editor's harvest craft picker reads this list off disk-->
+    <None Include="data\**\*.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="data\**\*.csx" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImGui.NET" Version="1.90.0.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+  </ItemGroup>
+</Project>

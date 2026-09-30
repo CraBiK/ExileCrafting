@@ -1,0 +1,91 @@
+# Horticrafting station craft names, one per line, for the editor's Insert Harvest Craft picker.
+# Lines starting with '#' are ignored; a '##' line names the group the entries under it belong to.
+# Edit this if a league adds or renames crafts - nothing here is checked against the game, it's
+# only the text that gets pasted into your script.
+
+## reforge
+Reforge a Rare item with random modifiers, including a Fire modifier
+Reforge a Rare item with random modifiers, including a Cold modifier
+Reforge a Rare item with random modifiers, including a Lightning modifier
+Reforge a Rare item with random modifiers, including a Physical modifier
+Reforge a Rare item with random modifiers, including a Life modifier
+Reforge a Rare item with random modifiers, including a Defence modifier
+Reforge a Rare item with random modifiers, including a Chaos modifier
+Reforge a Rare item with random modifiers, including an Attack modifier
+Reforge a Rare item with random modifiers, including a Caster modifier
+Reforge a Rare item with random modifiers, including a Speed modifier
+Reforge a Rare item with random modifiers, including a Critical modifier
+Reforge a Rare item with random modifiers, including a Minion modifier
+Reforge a Rare item with random modifiers, including a Elemental modifier
+Reforge a Rare item with random modifiers, including a Attribute modifier
+Reforge a Rare item with random modifiers, including a Mana modifier
+Reforge a Rare item with random modifiers, including a Drop modifier
+Reforge a Rare item, being more likely to receive the same modifier types
+Reforge a Rare item, being less likely to receive the same modifier types
+Reforge an Influenced Rare item with random modifiers, including a Influence modifier
+
+## augment
+Add a new Fire modifier and remove another random modifier from a non-Influenced item
+Add a new Cold modifier and remove another random modifier from a non-Influenced item
+Add a new Lightning modifier and remove another random modifier from a non-Influenced item
+Add a new Physical modifier and remove another random modifier from a non-Influenced item
+Add a new Life modifier and remove another random modifier from a non-Influenced item
+Add a new Defence modifier and remove another random modifier from a non-Influenced item
+Add a new Chaos modifier and remove another random modifier from a non-Influenced item
+Add a new Attack modifier and remove another random modifier from a non-Influenced item
+Add a new Caster modifier and remove another random modifier from a non-Influenced item
+Add a new Speed modifier and remove another random modifier from a non-Influenced item
+Add a new Critical modifier and remove another random modifier from a non-Influenced item
+
+## change modifier
+Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Fire Resistance
+Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Fire Resistance
+Change a modifier that grants Fire Resistance into a similar-tier modifier that grants Cold Resistance
+Change a modifier that grants Lightning Resistance into a similar-tier modifier that grants Cold Resistance
+Change a modifier that grants Fire Resistance into a similar-tier modifier that grants Lightning Resistance
+Change a modifier that grants Cold Resistance into a similar-tier modifier that grants Lightning Resistance
+Change a modifier that grants Cold Damage into a similar-tier modifier that grants Fire Damage
+Change a modifier that grants Lightning Damage into a similar-tier modifier that grants Fire Damage
+Change a modifier that grants Fire Damage into a similar-tier modifier that grants Cold Damage
+Change a modifier that grants Lightning Damage into a similar-tier modifier that grants Cold Damage
+Change a modifier that grants Fire Damage into a similar-tier modifier that grants Lightning Damage
+Change a modifier that grants Cold Damage into a similar-tier modifier that grants Lightning Damage
+
+## enchant quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1 Maximum Life per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1 Maximum Mana per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1 Strength per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1 Dexterity per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1 Intelligence per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1% to Fire Resistance per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1% to Cold Resistance per 2% quality
+Enchant a Body Armour. Quality does not increase its Defences, grants +1% to Lightning Resistance per 2% quality
+Enchant a Melee Weapon. Quality does not increase its Physical Damage, has +1 Weapon Range per 10% Quality
+Enchant a Weapon. Quality does not increase its Physical Damage, grants 1% increased Area of Effect per 4% Quality
+Enchant a Weapon. Quality does not increase its Physical Damage, grants 1% increased Accuracy per 2% Quality
+Enchant a Weapon. Quality does not increase its Physical Damage, has 1% increased Attack Speed per 8% Quality
+Enchant a Weapon. Quality does not increase its Physical Damage, has 1% increased Critical Strike Chance per 4% Quality
+Enchant a Weapon. Quality does not increase its Physical Damage, grants 1% increased Elemental Damage per 2% Quality
+
+## exchange
+Change a Divination Card into another random Divination Card
+Change a stack of Fossils into a different type of Fossil. The new Fossil type may have a smaller stack size. Cost is proportional to stack size.
+Change a stack of Oils into a different colour of Oil. Cost is proportional to stack size.
+Change a stack of Catalysts into a different type of Catalyst. Cost is proportional to stack size.
+Change a stack of Essences into a different type of the same tier. Cost is proportional to stack size.
+Change a stack of Timeless Splinters or a Timeless Emblem into Splinters or an Emblem of another type. Cost is proportional to stack size.
+Change a stack of Delirium Orbs into a different type of Delirium Orb. Cost is proportional to stack size.
+Change a stack of Shaper Fragments into other random Shaper Fragments. Cost is proportional to stack size.
+Change a stack of Elder Fragments into other random Elder Fragments. Cost is proportional to stack size.
+Change a stack of Conqueror Fragments into other random Conqueror Fragments. Cost is proportional to stack size.
+Change a stack of Sacrifice or Mortal Fragments into other random Fragments of that type. Cost is proportional to stack size.
+Change a stack of Fragments of Terror or Emptiness into the other Fragment. Or change a stack of Fragments of Shape or Knowledge into the other Fragment. Cost is proportional to stack size.
+
+## other
+Randomise the Influence types on an Influenced Normal, Magic or Rare Item, as well as reforging the item with new random modifiers
+Synthesise an item, giving random Synthesised implicits. Cannot be used on Unique, Influenced, Synthesised or Fractured items
+Reforge the colour of a random socket on an item, turning it White
+Transform a Support Gem to be a random Support Gem of the same colour
+Sacrifice a Corrupted Gem to gain 50% of the gem's total experience stored as a Facetor's Lens
+Sacrifice a Corrupted Map. Create a new Corrupted Map of the same tier and rarity.
+Sacrifice up to half a stack of Divination Cards to receive between 0 and twice that amount of the same Card

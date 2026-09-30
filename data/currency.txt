@@ -1,0 +1,277 @@
+# Base names for the editor's Insert Currency picker, one per line, '#' comments a line out.
+# Curated from poewiki: Currency (basic + league), Essence, Delirium, Catalyst, Beyond demon.
+# A '##' line names the group the entries under it belong to.
+# A name that the game's own currency file doesn't know gets dropped when the picker builds,
+# so a stale line here is harmless - it just won't show up.
+
+## basic currency
+Ancient Orb
+Armourer's Scrap
+Blacksmith's Whetstone
+Blessed Orb
+Chaos Orb
+Chromatic Orb
+Divine Orb
+Enkindling Orb
+Exalted Orb
+Fracturing Orb
+Gemcutter's Prism
+Glassblower's Bauble
+Hinekora's Lock
+Instilling Orb
+Jeweller's Orb
+Lesser Eldritch Ember
+Lesser Eldritch Ichor
+Mirror of Kalandra
+Orb of Alchemy
+Orb of Alteration
+Orb of Annulment
+Orb of Augmentation
+Orb of Binding
+Orb of Chance
+Orb of Fusing
+Orb of Regret
+Orb of Scouring
+Orb of Transmutation
+Orb of Unmaking
+Portal Scroll
+Reflecting Mist
+Regal Orb
+Rogue's Marker
+Sacred Orb
+Scroll of Wisdom
+Stacked Deck
+Vaal Orb
+Valdo's Puzzle Box
+
+## league / endgame currency
+Awakener's Orb
+Chaotic Astrolabe
+Crusader's Exalted Orb
+Deceptive Astrolabe
+Elder's Exalted Orb
+Eldritch Chaos Orb
+Eldritch Exalted Orb
+Eldritch Orb of Annulment
+Exceptional Eldritch Ember
+Exceptional Eldritch Ichor
+Fruiting Astrolabe
+Fungal Astrolabe
+Grand Eldritch Ember
+Grand Eldritch Ichor
+Grasping Astrolabe
+Greater Eldritch Ember
+Greater Eldritch Ichor
+Hunter's Exalted Orb
+Lightless Astrolabe
+Maven's Chisel of Avarice
+Maven's Chisel of Divination
+Maven's Chisel of Procurement
+Maven's Chisel of Proliferation
+Maven's Chisel of Scarabs
+Memory of Loneliness
+Memory of Reverence
+Nameless Astrolabe
+Orb of Conflict
+Orb of Dominance
+Orb of Intention
+Orb of Remembrance
+Orb of Unravelling
+Redeemer's Exalted Orb
+Runic Astrolabe
+Shaper's Exalted Orb
+Templar Astrolabe
+Timeless Astrolabe
+Warlord's Exalted Orb
+
+## essences
+Whispering Essence of Greed
+Muttering Essence of Greed
+Weeping Essence of Greed
+Wailing Essence of Greed
+Screaming Essence of Greed
+Shrieking Essence of Greed
+Deafening Essence of Greed
+Whispering Essence of Contempt
+Muttering Essence of Contempt
+Weeping Essence of Contempt
+Wailing Essence of Contempt
+Screaming Essence of Contempt
+Shrieking Essence of Contempt
+Deafening Essence of Contempt
+Whispering Essence of Hatred
+Muttering Essence of Hatred
+Weeping Essence of Hatred
+Wailing Essence of Hatred
+Screaming Essence of Hatred
+Shrieking Essence of Hatred
+Deafening Essence of Hatred
+Whispering Essence of Woe
+Muttering Essence of Woe
+Weeping Essence of Woe
+Wailing Essence of Woe
+Screaming Essence of Woe
+Shrieking Essence of Woe
+Deafening Essence of Woe
+Whispering Essence of Fear
+Muttering Essence of Fear
+Weeping Essence of Fear
+Wailing Essence of Fear
+Screaming Essence of Fear
+Shrieking Essence of Fear
+Deafening Essence of Fear
+Whispering Essence of Anger
+Muttering Essence of Anger
+Weeping Essence of Anger
+Wailing Essence of Anger
+Screaming Essence of Anger
+Shrieking Essence of Anger
+Deafening Essence of Anger
+Whispering Essence of Torment
+Muttering Essence of Torment
+Weeping Essence of Torment
+Wailing Essence of Torment
+Screaming Essence of Torment
+Shrieking Essence of Torment
+Deafening Essence of Torment
+Whispering Essence of Sorrow
+Muttering Essence of Sorrow
+Weeping Essence of Sorrow
+Wailing Essence of Sorrow
+Screaming Essence of Sorrow
+Shrieking Essence of Sorrow
+Deafening Essence of Sorrow
+Whispering Essence of Rage
+Muttering Essence of Rage
+Weeping Essence of Rage
+Wailing Essence of Rage
+Screaming Essence of Rage
+Shrieking Essence of Rage
+Deafening Essence of Rage
+Whispering Essence of Suffering
+Muttering Essence of Suffering
+Weeping Essence of Suffering
+Wailing Essence of Suffering
+Screaming Essence of Suffering
+Shrieking Essence of Suffering
+Deafening Essence of Suffering
+Whispering Essence of Wrath
+Muttering Essence of Wrath
+Weeping Essence of Wrath
+Wailing Essence of Wrath
+Screaming Essence of Wrath
+Shrieking Essence of Wrath
+Deafening Essence of Wrath
+Whispering Essence of Doubt
+Muttering Essence of Doubt
+Weeping Essence of Doubt
+Wailing Essence of Doubt
+Screaming Essence of Doubt
+Shrieking Essence of Doubt
+Deafening Essence of Doubt
+Whispering Essence of Loathing
+Muttering Essence of Loathing
+Weeping Essence of Loathing
+Wailing Essence of Loathing
+Screaming Essence of Loathing
+Shrieking Essence of Loathing
+Deafening Essence of Loathing
+Whispering Essence of Zeal
+Muttering Essence of Zeal
+Weeping Essence of Zeal
+Wailing Essence of Zeal
+Screaming Essence of Zeal
+Shrieking Essence of Zeal
+Deafening Essence of Zeal
+Whispering Essence of Anguish
+Muttering Essence of Anguish
+Weeping Essence of Anguish
+Wailing Essence of Anguish
+Screaming Essence of Anguish
+Shrieking Essence of Anguish
+Deafening Essence of Anguish
+Whispering Essence of Spite
+Muttering Essence of Spite
+Weeping Essence of Spite
+Wailing Essence of Spite
+Screaming Essence of Spite
+Shrieking Essence of Spite
+Deafening Essence of Spite
+Whispering Essence of Scorn
+Muttering Essence of Scorn
+Weeping Essence of Scorn
+Wailing Essence of Scorn
+Screaming Essence of Scorn
+Shrieking Essence of Scorn
+Deafening Essence of Scorn
+Whispering Essence of Envy
+Muttering Essence of Envy
+Weeping Essence of Envy
+Wailing Essence of Envy
+Screaming Essence of Envy
+Shrieking Essence of Envy
+Deafening Essence of Envy
+Whispering Essence of Misery
+Muttering Essence of Misery
+Weeping Essence of Misery
+Wailing Essence of Misery
+Screaming Essence of Misery
+Shrieking Essence of Misery
+Deafening Essence of Misery
+Whispering Essence of Dread
+Muttering Essence of Dread
+Weeping Essence of Dread
+Wailing Essence of Dread
+Screaming Essence of Dread
+Shrieking Essence of Dread
+Deafening Essence of Dread
+Essence of Hysteria
+Essence of Insanity
+Essence of Horror
+Essence of Delirium
+Remnant of Corruption
+
+## delirium orbs
+Abyssal Delirium Orb
+Armoursmith's Delirium Orb
+Blacksmith's Delirium Orb
+Blighted Delirium Orb
+Cartographer's Delirium Orb
+Diviner's Delirium Orb
+Fine Delirium Orb
+Fossilised Delirium Orb
+Fragmented Delirium Orb
+Jeweller's Delirium Orb
+Obscured Delirium Orb
+Singular Delirium Orb
+Skittering Delirium Orb
+Thaumaturge's Delirium Orb
+Timeless Delirium Orb
+Whispering Delirium Orb
+
+## catalysts
+Abrasive Catalyst
+Accelerating Catalyst
+Dextral Catalyst
+Fertile Catalyst
+Imbued Catalyst
+Intrinsic Catalyst
+Noxious Catalyst
+Prismatic Catalyst
+Sinistral Catalyst
+Tempering Catalyst
+Turbulent Catalyst
+Unstable Catalyst
+
+## tainted currency
+Tainted Armourer's Scrap
+Tainted Blacksmith's Whetstone
+Tainted Catalyst
+Tainted Chaos Orb
+Tainted Chromatic Orb
+Tainted Divine Teardrop
+Tainted Exalted Orb
+Tainted Jeweller's Orb
+Tainted Mythic Orb
+Tainted Oil
+Tainted Orb of Fusing
